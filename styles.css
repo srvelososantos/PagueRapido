@@ -1,0 +1,203 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/font.otf);
+}
+
+@font-face {
+    font-family: myfont2;
+    src: url(font/inter.ttf);
+}
+
+body, ul, li, p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    
+}
+
+#principal1{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgb(192, 192, 192);
+}
+
+#principal2{
+    text-align: center;
+}
+
+h1{
+    font-size: 87px;
+    font-family: myfont;
+    color: #4F524D;
+    margin-bottom: 0px;
+}
+
+/*fonte zoada*/
+h4{
+    color: #989E96;
+    font-family: myfont1;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+h5{
+    font-size: 35px;
+    font-family: myfont;
+    color: #4F524D;
+    
+}
+
+#conteudo1{
+    padding-left: 170px;
+}
+
+#conteudo1 > div{
+    display: flex;
+}
+
+#conteudo2{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space;
+}
+
+#conteudo3{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space;
+    border-bottom: solid 1px rgb(192, 192, 192);
+}
+
+#c2d1{
+    border: solid black 1px;
+}
+
+#conteudo3 > div{
+    margin: 0;
+    padding: 100px;
+}
+
+#conteudo3 > div > img{
+    width: 80px;
+}
+
+#conteudo3 > div > h5{
+    margin: 30px;
+    margin-left: 0px;
+    font-size: 30px;
+    font-family: myfont;
+    color: #4F524D;
+}
+
+#conteudo3 > div > p{
+    font-size: 25px;
+    font-family: myfont;
+    color: #989E96;
+}
+
+
+#p2{
+    font-size: 64px;
+    font-family: myfont;
+    color: #4F524D;
+    padding-top: 180px;
+}
+
+button{
+    background-color: rgb(92, 153, 0);
+    color: white;
+    display: flex;
+    margin-top: 45px;
+    padding-right: 20px;
+    margin-right: 42px;
+    height: 83px;
+    width: 294px;
+    border-radius: 15px;
+    border: 0;
+    font-size: 24px;
+    align-items: center;
+}
+
+#btn-logo{
+    height: 50px;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+#img1{
+    max-width: 830px;
+    display: block;
+}
+
+#logo{
+    height: 72px;
+    padding-top: 80px;
+}
+
+.conteudo4{
+    text-align: center;
+}
+
+.conteudo5{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.conteudo5 > div{
+    padding: 60px;
+    
+}
+
+.conteudo5 > div > div{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.conteudo5 > div > div > div > img{
+    width: 64px;
+}
+
+.conteudo5 > div > div > h6{
+    font-size: 25px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 20px;
+    font-family: myfont2;
+}
+
+.conteudo5 > div > p{
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 22px;
+    font-family: myfont2;
+    color: #989E96;
+}
+
+.pontos{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-bottom: solid 1px rgb(192, 192, 192);
+}
+
+.final{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.final > img{
+    width: 70%;
+    
+}
+
