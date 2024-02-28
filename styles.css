@@ -206,7 +206,7 @@ button{
 .f{
     background-color: #3d3d3d;
     height: 280px;
-    padding: 120px 100px 120px 100px;
+    padding: 65px 75px 20px 75px;
     justify-content: space-between;
     display: flex;
     
@@ -238,13 +238,16 @@ a{
 }
 
 .final__0{
-    padding: 50px 25px 35px 0px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .final__0 > img{
-    height: 106%;
-    
+    height: fit-content;
+    width: 90%;
+    border: 9px solid white;
+    border-radius: 10px;
 }
 
 .dv4{
